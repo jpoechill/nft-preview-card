@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0D192C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #00FFF8;
+}
+
+.text-heading {
+  font-size: 22px;
+}
+
+.text-body-sp {
+  font-size: 18px;
+}
+
+.text-caption {
+  font-size: 16px;
+}
+
+.text-caption-bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.color-soft-blue {
+  color: #8BACD9;
+}
+
+.color-cyan {
+  color: #00FFF8;
+}
+
+.bg-dark-blue {
+  background-color: #15263F;
+}
+
+.bg-cyan {
+  background-color:rgba(0, 255, 248, .52);
+}
+
+.border-white {
+  border-radius: 100px;
+  outline: 2px solid white;
+}
+
+.rounded {
+  border-radius: 14px!important;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
