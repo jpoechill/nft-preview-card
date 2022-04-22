@@ -37,11 +37,11 @@
   }
 }
 
-a {
+.fake-link {
   color: #FFFFFF;
 }
 
-a:hover {
+.fake-link:hover {
   color: #00FFF8;
 }
 

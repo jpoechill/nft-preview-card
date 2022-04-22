@@ -40,12 +40,9 @@ class App extends Component {
                 <img src="/images/image-equilibrium.jpg" className="w-100 myDiv rounded" alt="logo" />
               </div>
               <div className="hide">asdasd</div>
-              
-              <a href="#" class="text-decoration-none">
-              <span className="mt-3 d-block text-heading fw-bold" role="button">
+              <span className="mt-3 d-block text-heading fw-bold fake-link" role="button">
                 Equilibrium #3429
               </span>
-              </a>
               <div className="text-body-sp color-soft-blue my-3">
                 Our Equilibrium collection promotes balance and calm. <br />
               </div>
@@ -69,11 +66,9 @@ class App extends Component {
               <span className="text-caption color-soft-blue">
                 Creation of&nbsp;
               </span>
-              <a href="#" class="text-decoration-none">
-                <span className="text-caption" role="button">
-                  Jules Wyvern
-                </span>
-              </a>
+              <span className="text-caption fake-link" role="button">
+                Jules Wyvern
+              </span>
             </div>
           </div>
         </div>
